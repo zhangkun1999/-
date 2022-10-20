@@ -1,0 +1,11 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/uedu
+    username: root
+    password: 123456789
+mybatis:
+    mapper-locations: calsspath:/mybatis/mappers/*.xml
+    type‐aliases‐package: com.offcn.pojo
